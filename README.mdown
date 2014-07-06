@@ -1,0 +1,33 @@
+# DarkDock
+Forces "Dark" mode on the Dock in OS X Yosemite.
+
+### Intro
+**Note**: This may probably break in the future, so this plugin is targeting Yosemite Beta 2.
+
+Basically, I personally think the Light themed Dock folders look terrible and I much prefer the HUD style from 10.9 and earlier. However, the light theme looks fantastic everywhere else, so this just forces the dock to be Dark, and everything else to be whatever it wants to be.
+
+![Preview](DarkDock.jpg)
+
+### How do I DarkDock?
+Build Plugin in Xcode and codesign it. Then drop it into:
+
+````
+~/Library/Application Support/SIMBL/Plugins
+````
+
+Use [EasySIMBL](https://github.com/norio-nomura/EasySIMBL/) to load it for maximum effect!
+
+And then:
+
+````
+killall Dock
+````
+
+### License?
+Pretty much the BSD license, just don't repackage it and call it your own please!
+
+Also if you do make some changes, feel free to make a pull request and help make things more awesome!
+
+### Contact Info?
+Feel free to follow me on twitter: [@b3ll](https:///www.twitter.com/b3ll)!
+
