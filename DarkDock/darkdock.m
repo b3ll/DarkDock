@@ -17,7 +17,7 @@ static id (*orig_CFPreferencesCopyAppValue)(CFStringRef key, CFStringRef applica
 
 // Always return @"Dark" whenever @"AppleInterfaceTheme" is requested. @"AppleInterfaceTheme"'s value is stored in /Library/Preferences/.GlobalPreferences.
 id hax_CFPreferencesCopyAppValue(CFStringRef key, CFStringRef applicationID) {
-    if ([(__bridge NSString *)key isEqualToString:@"AppleInterfaceTheme"]) {
+    if ([(__bridge NSString *)key isEqualToString:@"AppleInterfaceTheme"] || [(__bridge NSString *)key isEqualToString:@"AppleInterfaceStyle"]) {
         return @"Dark";
     } else {
         return orig_CFPreferencesCopyAppValue(key, applicationID);
