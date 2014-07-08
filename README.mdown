@@ -2,7 +2,7 @@
 Forces "Dark" mode on the Dock in OS X Yosemite.
 
 ### Intro
-**Note**: This may probably break in the future, so this plugin is targeting Yosemite Beta 2.
+**Note**: This may probably break in the future, so this plugin is targeting Yosemite Beta 2 and 3.
 
 Basically, I personally think the Light themed Dock folders look terrible and I much prefer the HUD style from 10.9 and earlier. However, the light theme looks fantastic everywhere else, so this just forces the dock to be Dark, and everything else to be whatever it wants to be.
 
